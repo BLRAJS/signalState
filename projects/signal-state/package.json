@@ -26,6 +26,6 @@
   "homepage": "https://ngjoy.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BLRAJS/ngjoy-signalstate"
+    "url": "https://github.com/BLRAJS/signalState"
   }
 }

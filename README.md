@@ -58,7 +58,7 @@ This project is inspired by the enlightening Angular Signals tutorial by Deborah
 Install SignalState via npm:
 
 ```bash
-npm install  @ngjoy.dev/signal-state
+npm i @ngjoy.dev/signalstate
 ```
 
 

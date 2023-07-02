@@ -2,7 +2,7 @@ import {Injectable, Signal} from '@angular/core';
 import {Vehicle} from "./vehicle/vehicle";
 import {CartItem, CartState} from "./cart/cart";
 import {State} from "../../dist/signal-state/lib/model";
-import {SignalState} from "../../projects/signal-state/src/lib/signal-state.service";
+import {SignalState} from "signal-state";
 
 @Injectable({
   providedIn: 'root'
