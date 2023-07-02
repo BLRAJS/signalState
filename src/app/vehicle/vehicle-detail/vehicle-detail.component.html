@@ -1,0 +1,39 @@
+<ng-container *ngIf="vehicles()">
+  <div class="card">
+    <div class="card-header">
+      Detail for: {{vehicles()?.name}}
+    </div>
+
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3">Name:</div>
+        <div class="col-md-6 col-sm-3">{{vehicles()?.name}}</div>
+        <div class="col-md-3">
+          <button class='btn btn-primary' (click)='cartService.addToCart( $any(vehicles()) )'>Add to Cart
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">Classification:</div>
+        <div class="col-md-6">{{vehicles()?.vehicle_class}}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">Price (in credits):</div>
+        <div class="col-md-6">{{vehicles()?.cost_in_credits | number:'1.2-2'}}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">Crew:</div>
+        <div class="col-md-6">{{vehicles()?.crew}}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">Passengers:</div>
+        <div class="col-md-6">{{vehicles()?.passengers}}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">Cargo Capacity:</div>
+        <div class="col-md-6">{{vehicles()?.cargo_capacity}}</div>
+      </div>
+
+    </div>
+  </div>
+</ng-container>

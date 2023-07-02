@@ -1,0 +1,31 @@
+{
+  "name": "@ngjoy.dev/signalstate",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "author": "Bledar Ramo",
+  "license": "MIT",
+  "description": "SignalState is a smart, lightweight, and robust state management library for Angular 16+ applications, leveraging the power of Angular signals. No dependencies. No hooks. Just simple and powerful state management.",
+  "keywords": [
+    "angular",
+    "state management",
+    "angular state management",
+    "angular signals",
+    "reactive programming",
+    "SignalState",
+    "ngrx alternative",
+    "redux alternative",
+    "angular 16"
+  ],
+  "homepage": "https://ngjoy.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BLRAJS/ngjoy-signalstate"
+  }
+}
