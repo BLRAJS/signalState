@@ -47,10 +47,11 @@ Thanks to the intuitive API and the use of familiar Angular patterns, there's vi
 
 
 
-## Demo
+## Simple Demo and Code Sample
 
-This project is inspired by the enlightening Angular Signals tutorial by Deborah Kurata ( author, speaker, Microsoft MVP, Google GDE). We've built upon her ideas to demonstrate the capabilities of our library.
-[Stackblitz demo](https://stackblitz.com/edit/angular-signals-rxjs-deborah-r2tmfy)
+This project is inspired by Angular Signals tutorial by Deborah Kurata ( author, speaker, Microsoft MVP, Google GDE). We've built upon her ideas to demonstrate the capabilities of our library.
+[Stackblitz demo](https://stackblitz.com/edit/signalstate-angular16)
+
 
 
 ## Installation
